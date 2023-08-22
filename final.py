@@ -358,7 +358,7 @@ print(mostcommon)
 
 """Parts Of Speech (POS) Tagging"""
 
-!python -m spacy download en_core_web_lg
+#!python -m spacy download en_core_web_lg
 import spacy
 nlp = spacy.load('en_core_web_lg')
 
