@@ -825,7 +825,7 @@ sn.heatmap(cm_log, annot=True, fmt='d')
 plt.xlabel('Predicted')
 plt.ylabel('Truth')
 
-pip install xgboost
+#pip install xgboost
 
 from xgboost import XGBClassifier
 xgb_clf = XGBClassifier()
