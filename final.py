@@ -21,13 +21,13 @@ from google.colab import drive
 drive.mount('/content/drive/')
 
 import os,re
-!pip install docx2txt
+#!pip install docx2txt
 import docx2txt
-!pip install textract
+#!pip install textract
 import textract
 import pandas as pd
 import numpy as np
-!pip install python-docx
+#!pip install python-docx
 
 from docx import Document
 import nltk
