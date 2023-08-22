@@ -17,6 +17,7 @@ Original file is located at
 #!python -m spacy download en_core_web_sm
 #!pip install docx2txt
 
+pip install google-colab
 from google.colab import drive
 drive.mount('/content/drive/')
 
