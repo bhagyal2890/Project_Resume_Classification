@@ -7,15 +7,15 @@ Original file is located at
     https://colab.research.google.com/drive/13czStHxya1KTO3-MaTUXm1_hJ3hNPGeK
 """
 
-pip install python-doc
-!python3 -m pip install docx2txt
-!pip install textract
-!sudo apt-get install antiword
-!pip install python-docx
-!pip install xgboost
-!pip install wordcloud
-!python -m spacy download en_core_web_sm
-!pip install docx2txt
+#!pip install python-doc
+#!python3 -m pip install docx2txt
+#!pip install textract
+#!sudo apt-get install antiword
+#!pip install python-docx
+#!pip install xgboost
+#!pip install wordcloud
+#!python -m spacy download en_core_web_sm
+#!pip install docx2txt
 
 from google.colab import drive
 drive.mount('/content/drive/')
