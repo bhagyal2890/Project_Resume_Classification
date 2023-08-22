@@ -3,7 +3,7 @@ import numpy as np
 import streamlit as st
 from io import BytesIO
 import click
-from spacy_streamlit import visualize_parser
+
 import spacy
 import docx2txt
 import pdfplumber
